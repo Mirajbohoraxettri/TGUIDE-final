@@ -104,7 +104,16 @@
       background:#000;
       color:#fff;
       transform:scale(1.05);
+      
+
     }
+    .btn-box{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+      
+    }
+      
 
     @media (max-width:600px){
       h1{font-size:2.2rem}
@@ -123,8 +132,10 @@
   <div class="content">
     <h1>Explore Nepal</h1>
     <p> <i>Discover the breathtaking beauty of the Himalayas, ancient culture, and vibrant cities of Nepal.</p>
-    <button class="btn" onclick="window.location.href='signin.html'">login</button>
-    <button class="btn" onclick="window.location.href='register.html'">Sign up</button>
+      <div class="btn-box"> 
+         <button class="btn" onclick="window.location.href='signin.html'">login</button>
+         <button class="btn" onclick="window.location.href='register.php'">Sign up</button>
+      </div>
   </div>
 </body>
 </html>
